@@ -17,4 +17,10 @@ public class Controller {
         return new ResponseEntity<>("fake", HttpStatus.OK);
     }
 
+    @GetMapping("fake2")
+    public ResponseEntity<?> fake2() {
+        return new ResponseEntity<>("fake2", HttpStatus.OK);
+    }
+
+
 }
